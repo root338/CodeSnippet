@@ -35,12 +35,12 @@ git 下使用，可以将git本地仓库设置为该目录
 	
 方法实现
 
-	文件名												   快捷键																描述
+	文件名												   快捷键															   描述
 	33A484DA-1D21-4883-9034-CD0E8B3DF3FE.codesnippet		pViewWillDisappear													viewWillDisappear
-	65AFFECB-AB4A-4392-B39A-CC92DF4FFC13.codesnippet		pPropertyCategory														实现扩展中读写属性
-	92DE0B9E-C9FA-48F1-957E-37AD8BD7FBB5.codesnippet		pReturn																			不满足退出当前方法
-	9C917B6C-729B-4F5F-9D26-B87298DD833B.codesnippet		pAddButtonEventTouchUpInside								创建 按钮 UIControlEventTouchUpInside 事件
-	DC23EECD-7735-42A8-AB60-527BE15D78F3.codesnippet		pGetCreate																	get方法下创建属性
+	65AFFECB-AB4A-4392-B39A-CC92DF4FFC13.codesnippet		pPropertyCategory													实现扩展中读写属性
+	92DE0B9E-C9FA-48F1-957E-37AD8BD7FBB5.codesnippet		pReturn																不满足退出当前方法
+	9C917B6C-729B-4F5F-9D26-B87298DD833B.codesnippet		pAddButtonEventTouchUpInside										创建 按钮 UIControlEventTouchUpInside 事件
+	DC23EECD-7735-42A8-AB60-527BE15D78F3.codesnippet		pGetCreate															get方法下创建属性
 	
 函数、方法内部实现
 

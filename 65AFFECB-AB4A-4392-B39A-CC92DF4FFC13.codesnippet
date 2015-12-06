@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pPropertyCategory</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)set&lt;#Property Name#&gt;
+{
+    objc_setAssociatedObject(self, @selector(&lt;#selector#&gt;), &lt;#id value#&gt;, &lt;#objc_AssociationPolicy policy#&gt;);
+}
+
+- (&lt;#ClassName#&gt;)&lt;#Property Name#&gt;
+{
+    return objc_getAssociatedObject(self, _cmd);
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>65AFFECB-AB4A-4392-B39A-CC92DF4FFC13</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>实现扩展中读写属性</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

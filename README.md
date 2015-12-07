@@ -7,13 +7,13 @@ git 下使用，可以将git本地仓库设置为该目录
 已存在CodeSnippets介绍
 类型声明
 	
-	文件名												   快捷键															   简述
+	文件名                                                   快捷键                                                               简述
 	5AD3EA5A-62C1-4CDB-8438-8FF7641F3307.codesnippet		pTypedefBlock														声明block
 
 
 属性定义
 
-	文件名												   快捷键															   简述
+	文件名                                                   快捷键                                                               简述
 	02EE2B1B-1E9B-4CB6-9459-6D64D28BA55E.codesnippet		pblock																定义block
 	0EC05D4D-9848-4D54-BA02-36EA734BEFA0.codesnippet		pOptionRead															定义只读只写自选属性
 	1ADD43BF-7B65-4821-8600-FBF563C90DE5.codesnippet		pDelegaate															定义协议属性
@@ -30,7 +30,7 @@ git 下使用，可以将git本地仓库设置为该目录
 	
 注释
 
-	文件名												   快捷键															   简述
+	文件名                                                   快捷键                                                               简述
 	324E5393-780E-43D3-AB47-46A0BF61F50E.codesnippet		singleNote															单行注释
 	7DE8087C-FDBE-46BB-AF9C-7DDDF8A81BB2.codesnippet		noteMultiline														块注释
 	D71D7E76-F851-48D9-BAFC-E7CCF959793D.codesnippet		noteVVDocument														快速注释(实现////四个，需要手动设置)
@@ -38,7 +38,7 @@ git 下使用，可以将git本地仓库设置为该目录
 	
 方法实现
 
-	文件名												   快捷键															   描述
+	文件名                                                   快捷键                                                               描述
 	33A484DA-1D21-4883-9034-CD0E8B3DF3FE.codesnippet		pViewWillDisappear													viewWillDisappear
     3D68D966-F1C3-4ECF-BFB1-386FDC06AE23.codesnippet		pViewDidLoad														viewDidLoad
     3FF178E2-F6B4-4A8F-92EC-E0001CEC790C.codesnippet		pViewDidDisappear													viewDidDisapear
@@ -49,7 +49,7 @@ git 下使用，可以将git本地仓库设置为该目录
 	
 函数、方法内部实现
 
-	文件名													快捷键															   描述
+	文件名													快捷键                                                               描述
 	31F3A673-CF48-4FC9-921D-D43287BB3892.codesnippet		pcasebreak															带break的case
     65AFFECB-AB4A-4392-B39A-CC92DF4FFC13.codesnippet		pPropertyCategory													实现扩展中读写属性
     92DE0B9E-C9FA-48F1-957E-37AD8BD7FBB5.codesnippet		pReturn																不满足退出当前方法
@@ -61,5 +61,5 @@ git 下使用，可以将git本地仓库设置为该目录
 Swift
 函数、方法内部实现
 
-	文件名												   快捷键															   描述
+	文件名                                                   快捷键                                                               描述
 	F24A3546-789B-4DA8-A290-2E9059C4F139.codesnippet		pDispatch_after_custom												延迟加载

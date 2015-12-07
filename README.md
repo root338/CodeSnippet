@@ -24,6 +24,9 @@ git 下使用，可以将git本地仓库设置为该目录
 	C548C2CF-DEAD-4C44-A0FB-7F01F23002FD.codesnippet		pReadwrite															定义强引用只写属性
 	D4E3F36A-68BE-4684-9D2C-64F6E09BAE4E.codesnippet		pAssign																assign属性定义
 	F1777394-8709-46CC-95CB-838AC952BF24.codesnippet		pStrong																strong属性定义
+    AEA37FC8-BE45-4EA2-859A-3F97F4F28317.codesnippet        pNoteOptionObject                                                   带注释的可选声明
+    DE5F018A-D7D6-499E-8751-29F6D5A0AF54.codesnippet        pOptionalStrong                                                     可选强属性定义
+    51442F01-D8FC-4D47-8783-9202DB750844.codesnippet        pConst                                                              定义const变量
 	
 注释
 
@@ -37,21 +40,22 @@ git 下使用，可以将git本地仓库设置为该目录
 
 	文件名												   快捷键															   描述
 	33A484DA-1D21-4883-9034-CD0E8B3DF3FE.codesnippet		pViewWillDisappear													viewWillDisappear
-	65AFFECB-AB4A-4392-B39A-CC92DF4FFC13.codesnippet		pPropertyCategory													实现扩展中读写属性
-	92DE0B9E-C9FA-48F1-957E-37AD8BD7FBB5.codesnippet		pReturn																不满足退出当前方法
-	9C917B6C-729B-4F5F-9D26-B87298DD833B.codesnippet		pAddButtonEventTouchUpInside										创建 按钮 UIControlEventTouchUpInside 事件
-	DC23EECD-7735-42A8-AB60-527BE15D78F3.codesnippet		pGetCreate															get方法下创建属性
+    3D68D966-F1C3-4ECF-BFB1-386FDC06AE23.codesnippet		pViewDidLoad														viewDidLoad
+    3FF178E2-F6B4-4A8F-92EC-E0001CEC790C.codesnippet		pViewDidDisappear													viewDidDisapear
+    49E1CFE0-91A8-4F05-B854-6F7E610CEE80.codesnippet		pViewWillAppear														ViewWillAppear
+    56D09B8D-6388-4021-8C93-0E9647201C32.codesnippet		pViewDidAppear														viewDidAppear
+    65507F8D-1038-4F9D-9A14-E0C741FAB2A5.codesnippet		pInitFunction														初始化方法集
+    A948A30A-D69A-45A6-8642-9B5957BE9DC4.codesnippet		pLayoutSubviews														layoutSubviews
 	
 函数、方法内部实现
 
 	文件名													快捷键															   描述
 	31F3A673-CF48-4FC9-921D-D43287BB3892.codesnippet		pcasebreak															带break的case
-	3D68D966-F1C3-4ECF-BFB1-386FDC06AE23.codesnippet		pViewDidLoad														viewDidLoad
-	3FF178E2-F6B4-4A8F-92EC-E0001CEC790C.codesnippet		pViewDidDisappear													viewDidDisapear
-	49E1CFE0-91A8-4F05-B854-6F7E610CEE80.codesnippet		pViewWillAppear														ViewWillAppear
-	56D09B8D-6388-4021-8C93-0E9647201C32.codesnippet		pViewDidAppear														viewDidAppear
-	65507F8D-1038-4F9D-9A14-E0C741FAB2A5.codesnippet		pInitFunction														初始化方法集
-	A948A30A-D69A-45A6-8642-9B5957BE9DC4.codesnippet		pLayoutSubviews														layoutSubviews
+    65AFFECB-AB4A-4392-B39A-CC92DF4FFC13.codesnippet		pPropertyCategory													实现扩展中读写属性
+    92DE0B9E-C9FA-48F1-957E-37AD8BD7FBB5.codesnippet		pReturn																不满足退出当前方法
+    9C917B6C-729B-4F5F-9D26-B87298DD833B.codesnippet		pAddButtonEventTouchUpInside										创建 按钮 UIControlEventTouchUpInside 事件
+    DC23EECD-7735-42A8-AB60-527BE15D78F3.codesnippet		pGetCreate															get方法下创建属性
+    E7616BE8-5508-471D-B05F-681F827FC741.codesnippet        __weak_block                                                        block弱引用定义
 
 
 Swift

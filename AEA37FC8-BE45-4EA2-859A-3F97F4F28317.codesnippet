@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/** &lt;#content#&gt; */
-@property (strong, nonatomic) &lt;#NSString#&gt;&lt;Optional&gt; *&lt;#name#&gt;</string>
+@property (nonatomic, strong) &lt;#NSString#&gt;&lt;Optional&gt; *&lt;#name#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AEA37FC8-BE45-4EA2-859A-3F97F4F28317</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (weak, nonatomic) IBOutlet &lt;#class#&gt; &lt;#name#&gt;</string>
+	<string>@property (nonatomic, weak) IBOutlet &lt;#class#&gt; &lt;#name#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3679BB63-AB66-4472-B3B8-2BAA72A9EF2B</string>
 	<key>IDECodeSnippetLanguage</key>

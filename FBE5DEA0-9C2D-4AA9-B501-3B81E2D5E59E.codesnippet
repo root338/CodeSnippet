@@ -3,19 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pConst</string>
+	<string>pSearchCellIndexPath</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>const &lt;#NSString#&gt; *&lt;#value name#&gt; = &lt;#value#&gt;;</string>
+	<string>&lt;#UITableViewCell#&gt; *cell   = [&lt;#subview#&gt; searchSuperViewWithClass:[&lt;#UITableViewCell#&gt; class]];
+    NSIndexPath *indexPath  = [self.tableView indexPathForCell:cell];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>51442F01-D8FC-4D47-8783-9202DB750844</string>
+	<string>FBE5DEA0-9C2D-4AA9-B501-3B81E2D5E59E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>需要导入UIView+CGSearchView文件</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>定义const变量</string>
+	<string>通过cell子视图获取NSIndexPath</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -56,6 +56,7 @@ git 下使用，可以将git本地仓库设置为该目录
     9C917B6C-729B-4F5F-9D26-B87298DD833B.codesnippet		pAddButtonEventTouchUpInside										创建 按钮 UIControlEventTouchUpInside 事件
     DC23EECD-7735-42A8-AB60-527BE15D78F3.codesnippet		pGetCreate															get方法下创建属性
     E7616BE8-5508-471D-B05F-681F827FC741.codesnippet        __weak_block                                                        block弱引用定义
+    FBE5DEA0-9C2D-4AA9-B501-3B81E2D5E59E.codesnippet        pSearchCellIndexPath                                                通过cell子视图获取NSIndexPath
 
 
 Swift

@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pReadonlyOption</string>
+	<string>pVerifityRespondsSelector</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, &lt;#strong#&gt;, &lt;#readonly#&gt;) &lt;#class#&gt; *&lt;#name#&gt;;</string>
+	<string>if ([&lt;#self#&gt; respondsToSelector:@selector(&lt;#selector#&gt;)]) {
+        &lt;#statements#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0EC05D4D-9848-4D54-BA02-36EA734BEFA0</string>
+	<string>860B17F9-794E-4E43-BC0F-53F13BE4BD51</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>定义只读只写自选属性</string>
+	<string>验证方法是否存在</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

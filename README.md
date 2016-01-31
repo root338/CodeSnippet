@@ -57,6 +57,12 @@ git 下使用，可以将git本地仓库设置为该目录
     DC23EECD-7735-42A8-AB60-527BE15D78F3.codesnippet		pGetCreate															get方法下创建属性
     E7616BE8-5508-471D-B05F-681F827FC741.codesnippet        __weak_block                                                        block弱引用定义
     FBE5DEA0-9C2D-4AA9-B501-3B81E2D5E59E.codesnippet        pSearchCellIndexPath                                                通过cell子视图获取NSIndexPath
+    376DDB5C-FDAE-4756-BCB6-F80F46CA145D.codesnippet        pVerifityIsMemberClass                                              验证该类是否是指定类
+    835F003A-8F88-4C15-A575-3AAFDBC2FA8F.codesnippet        pInitCell                                                           初始化cell方法
+    860B17F9-794E-4E43-BC0F-53F13BE4BD51.codesnippet        pVerifityRespondsSelector                                           验证方法是否存在
+    9BAA3F43-5973-4CDB-9056-BB342CB57A19.codesnippet        pVerifityIsKinkClass                                                验证对象是否是指定类
+    B9F24632-1366-4FEA-946F-377427912ADB.codesnippet        pVerifityConformsToProcotol                                         验证对象是否实现指定协议
+    F28E7A79-BAC9-44F4-9B64-743F4952C130.codesnippet        pInitTableViewHeaderFooterView                                      初始化TableViewHeaderFooterView
 
 
 Swift

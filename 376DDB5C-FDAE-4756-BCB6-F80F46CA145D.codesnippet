@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pReadonlyOption</string>
+	<string>pVerifityIsMemberClass</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (&lt;#nullable#&gt;, nonatomic, &lt;#strong#&gt;, &lt;#readonly#&gt;) &lt;#class#&gt; *&lt;#name#&gt;;</string>
+	<string>if ([&lt;#self#&gt; isMemberOfClass:[&lt;#className#&gt; class]]) {
+        &lt;#statements#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0EC05D4D-9848-4D54-BA02-36EA734BEFA0</string>
+	<string>376DDB5C-FDAE-4756-BCB6-F80F46CA145D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>定义只读只写自选属性</string>
+	<string>验证该类是否是指定类</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

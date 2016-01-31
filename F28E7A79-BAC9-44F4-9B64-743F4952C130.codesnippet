@@ -3,19 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pReadonlyOption</string>
+	<string>pInitTableViewHeaderFooterView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (&lt;#nullable#&gt;, nonatomic, &lt;#strong#&gt;, &lt;#readonly#&gt;) &lt;#class#&gt; *&lt;#name#&gt;;</string>
+	<string>- (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier
+{
+    self = [super initWithReuseIdentifier:reuseIdentifier];
+    if (self) {
+        [self initialization];
+    }
+    return self;
+}
+
+- (void)initialization
+{
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0EC05D4D-9848-4D54-BA02-36EA734BEFA0</string>
+	<string>F28E7A79-BAC9-44F4-9B64-743F4952C130</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>定义只读只写自选属性</string>
+	<string>初始化TableViewHeaderFooterView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

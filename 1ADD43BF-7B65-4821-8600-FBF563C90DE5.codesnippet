@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) id&lt;&lt;#procotol name#&gt;&gt; &lt;#delegate#&gt;;</string>
+	<string>@property (&lt;#nullable#&gt;, nonatomic, weak) id&lt;&lt;#procotol name#&gt;&gt; &lt;#delegate#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1ADD43BF-7B65-4821-8600-FBF563C90DE5</string>
 	<key>IDECodeSnippetLanguage</key>

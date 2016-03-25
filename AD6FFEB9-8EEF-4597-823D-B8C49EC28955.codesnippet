@@ -3,41 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pInitFunction</string>
+	<string>__Strong</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - 初始化方法
-- (instancetype)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        [self initialization];
-    }
-    return self;
-}
-
-- (instancetype)initWithCoder:(NSCoder *)aDecoder
-{
-    self = [super initWithCoder:aDecoder];
-    if (self) {
-        [self initialization];
-    }
-    return self;
-}
-
-- (void)initialization
-{
-    
-}</string>
+	<string>typeof(self) strongSelf         = self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>65507F8D-1038-4F9D-9A14-E0C741FAB2A5</string>
+	<string>AD6FFEB9-8EEF-4597-823D-B8C49EC28955</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>初始化方法集</string>
+	<string>block内部强引用定义</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pReturn</string>
+	<string>pcreateInit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (!(&lt;#condition#&gt;)) {
-        return &lt;#expression#&gt;;
-    }</string>
+	<string>[[&lt;#Class Name#&gt; alloc] init];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>92DE0B9E-C9FA-48F1-957E-37AD8BD7FBB5</string>
+	<string>DCF47A5B-CFBE-4F56-BE48-AD9E43EE53ED</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>不满足退出当前方法</string>
+	<string>创建对象</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

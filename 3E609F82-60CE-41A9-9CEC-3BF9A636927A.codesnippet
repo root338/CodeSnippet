@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>pcase</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//MARK:- &lt;#title name#&gt;</string>
+	<string>case &lt;#case value#&gt;:
+            &lt;#code#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>72041001-043D-4618-864C-B99679827099</string>
+	<string>3E609F82-60CE-41A9-9CEC-3BF9A636927A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>代码分隔符</string>
+	<string>case</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

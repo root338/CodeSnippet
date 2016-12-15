@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>SEL</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//MARK:- &lt;#title name#&gt;</string>
+	<string>#selector(&lt;#T##@objc method#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>72041001-043D-4618-864C-B99679827099</string>
+	<string>66211553-FDD8-4BAE-99BB-7496663215E4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>代码分隔符</string>
+	<string>swift下的SEL</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>pweakOptionVar</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//MARK:- &lt;#title name#&gt;</string>
+	<string>weak var &lt;#valueName#&gt; : &lt;#className#&gt;?</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>72041001-043D-4618-864C-B99679827099</string>
+	<string>72DAAEFE-F7A8-4583-A3BD-FFA40B86233A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>代码分隔符</string>
+	<string>可选弱引用属性声明</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>pbuttonAddTarget</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//MARK:- &lt;#title name#&gt;</string>
+	<string>&lt;#button name#&gt;.addTarget(&lt;#self#&gt;, action: &lt;#T##Selector#&gt;, for: &lt;#.touchUpInside#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>72041001-043D-4618-864C-B99679827099</string>
+	<string>FF5E87A3-E5BE-49CA-8B46-AF2B61845E69</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>代码分隔符</string>
+	<string>添加按钮事件</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

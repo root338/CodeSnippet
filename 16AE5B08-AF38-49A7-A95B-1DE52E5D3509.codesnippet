@@ -3,23 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pInterfaceCategory</string>
+	<string>pUIImageView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#Class Name#&gt; ()
-
-&lt;#Continuation#&gt;
-
-@end</string>
+	<string>UIImage *&lt;#image#&gt; = [UIImage imageNamed:&lt;#(nonnull NSString *)#&gt;];
+    &lt;#UIImageView *#&gt; = [[UIImageView alloc] initWithImage:&lt;#(nullable UIImage *)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C2450BFE-434F-4FAC-9350-C8006056B687</string>
+	<string>16AE5B08-AF38-49A7-A95B-1DE52E5D3509</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>实现类扩展</string>
+	<string>创建UIImageView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

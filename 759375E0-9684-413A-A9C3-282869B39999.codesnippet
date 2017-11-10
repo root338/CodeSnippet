@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pCreateAttributedString</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIFont *&lt;#FontName#&gt; = &lt;#create font code#&gt;;
+    UIColor *&lt;#color name#&gt; = &lt;#create color code#&gt;;
+    NSMutableParagraphStyle *&lt;#style#&gt; = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
+    
+NSDictionary *&lt;#dic#&gt; = @{
+                          NSFontAttributeName : &lt;#font name#&gt;,
+                          NSForegroundColorAttributeName : &lt;#color name#&gt;,
+                          NSParagraphStyleAttributeName : &lt;#style name#&gt;,
+                          };
+    &lt;#Attributed String#&gt; = [[&lt;#NSAttributedString#&gt; alloc] initWithString:&lt;#(nonnull NSString *)#&gt; attributes:&lt;#(nullable NSDictionary&lt;NSAttributedStringKey,id&gt; *)#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>759375E0-9684-413A-A9C3-282869B39999</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建富文本对象</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

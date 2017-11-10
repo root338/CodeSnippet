@@ -3,23 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pInterfaceCategory</string>
+	<string>pAllocInit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#Class Name#&gt; ()
-
-&lt;#Continuation#&gt;
-
-@end</string>
+	<string>&lt;#类型 #&gt;&lt;#类型名#&gt; = [[&lt;#类型#&gt; alloc] init];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C2450BFE-434F-4FAC-9350-C8006056B687</string>
+	<string>071DC80F-C457-42AD-9810-F407D65622A9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>实现类扩展</string>
+	<string>alloc init 创建对象</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

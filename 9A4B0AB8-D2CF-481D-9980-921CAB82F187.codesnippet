@@ -3,23 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pInterfaceCategory</string>
+	<string>pCreateFontColor</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#Class Name#&gt; ()
-
-&lt;#Continuation#&gt;
-
-@end</string>
+	<string>UIFont *&lt;#font name#&gt; = &lt;#create code#&gt;;
+    UIColor *&lt;#color name#&gt; = &lt;#create code#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C2450BFE-434F-4FAC-9350-C8006056B687</string>
+	<string>9A4B0AB8-D2CF-481D-9980-921CAB82F187</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>实现类扩展</string>
+	<string>创建UIFont/UIColor</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

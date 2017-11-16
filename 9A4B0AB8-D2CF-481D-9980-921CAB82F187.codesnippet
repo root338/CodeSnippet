@@ -6,7 +6,7 @@
 	<string>pCreateFontColor</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>UIFont *&lt;#font name#&gt; = &lt;#create code#&gt;;
@@ -14,7 +14,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>9A4B0AB8-D2CF-481D-9980-921CAB82F187</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>创建UIFont/UIColor</string>
 	<key>IDECodeSnippetUserSnippet</key>

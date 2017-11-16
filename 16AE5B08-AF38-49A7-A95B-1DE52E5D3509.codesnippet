@@ -6,7 +6,7 @@
 	<string>pUIImageView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>UIImage *&lt;#image#&gt; = [UIImage imageNamed:&lt;#(nonnull NSString *)#&gt;];
@@ -14,7 +14,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>16AE5B08-AF38-49A7-A95B-1DE52E5D3509</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>创建UIImageView</string>
 	<key>IDECodeSnippetUserSnippet</key>

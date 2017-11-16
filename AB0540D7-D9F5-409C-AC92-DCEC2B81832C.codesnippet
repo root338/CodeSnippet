@@ -3,19 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pAddSubview</string>
+	<string>pimport""</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>Preprocessor</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#self#&gt; addSubview:&lt;#(nonnull UIView *)#&gt;];</string>
+	<string>#import "&lt;#header file name .h#&gt;"</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AAB366F3-061E-4559-8E95-BB81CEEFA12F</string>
+	<string>AB0540D7-D9F5-409C-AC92-DCEC2B81832C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>添加视图</string>
+	<string>导入头文件</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

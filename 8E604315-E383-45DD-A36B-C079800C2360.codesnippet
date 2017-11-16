@@ -6,14 +6,14 @@
 	<string>pCreateImage</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>UIImage *&lt;#image Name#&gt; = [UIImage imageNamed:@"&lt;#image name#&gt;"];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8E604315-E383-45DD-A36B-C079800C2360</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>创建图片</string>
 	<key>IDECodeSnippetUserSnippet</key>

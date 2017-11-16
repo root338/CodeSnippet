@@ -6,7 +6,7 @@
 	<string>pSharedMethod</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>+ (instancetype)shared&lt;#name#&gt; {
@@ -21,7 +21,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EB9C99E1-E44D-42B7-86D5-2115FAEB5361</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>创建单例方法</string>
 	<key>IDECodeSnippetUserSnippet</key>

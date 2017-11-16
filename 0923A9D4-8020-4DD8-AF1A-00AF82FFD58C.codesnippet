@@ -3,19 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pAddSubview</string>
+	<string>pvarCustomGetSet</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#self#&gt; addSubview:&lt;#(nonnull UIView *)#&gt;];</string>
+	<string>var &lt;#name#&gt; : &lt;#class name#&gt; {
+        get {
+            &lt;#code#&gt;
+        }
+        set {
+            &lt;#code#&gt;
+        }
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AAB366F3-061E-4559-8E95-BB81CEEFA12F</string>
+	<string>0923A9D4-8020-4DD8-AF1A-00AF82FFD58C</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>添加视图</string>
+	<string>自定义get set方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

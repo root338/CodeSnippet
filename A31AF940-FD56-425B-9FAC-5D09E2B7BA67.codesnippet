@@ -6,7 +6,7 @@
 	<string>pInitWithFrame:</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (instancetype)initWithFrame:(CGRect)frame
@@ -21,7 +21,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A31AF940-FD56-425B-9FAC-5D09E2B7BA67</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>实现initWithFrame:方法</string>
 	<key>IDECodeSnippetUserSnippet</key>

@@ -6,7 +6,7 @@
 	<string>pCreateAttributedString</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>UIFont *&lt;#FontName#&gt; = &lt;#create font code#&gt;;
@@ -22,7 +22,7 @@ NSDictionary *&lt;#dic#&gt; = @{
 	<key>IDECodeSnippetIdentifier</key>
 	<string>759375E0-9684-413A-A9C3-282869B39999</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>创建富文本对象</string>
 	<key>IDECodeSnippetUserSnippet</key>

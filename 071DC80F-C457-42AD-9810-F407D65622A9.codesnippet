@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pAllocInit</string>
+	<string>pCreateAllocInit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>&lt;#类型 #&gt;&lt;#类型名#&gt; = [[&lt;#类型#&gt; alloc] init];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>071DC80F-C457-42AD-9810-F407D65622A9</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>alloc init 创建对象</string>
 	<key>IDECodeSnippetUserSnippet</key>

@@ -9,13 +9,13 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#self#&gt; addSubview:&lt;#(nonnull UIView *)#&gt;];</string>
+	<string>&lt;#self#&gt;.addSubview(&lt;#view name#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AAB366F3-061E-4559-8E95-BB81CEEFA12F</string>
+	<string>37E9E6AE-63D1-4E82-BBB8-413C42F1B198</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>添加视图</string>
+	<string>添加View</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

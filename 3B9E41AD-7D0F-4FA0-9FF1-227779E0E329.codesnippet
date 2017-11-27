@@ -23,7 +23,7 @@ numberOfRowsInComponent:(NSInteger)component
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3B9E41AD-7D0F-4FA0-9FF1-227779E0E329</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>实现UIPickerDataSource代理方法</string>
 	<key>IDECodeSnippetUserSnippet</key>

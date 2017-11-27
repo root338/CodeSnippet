@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pViewWillAppear</string>
+	<string>pInit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewWillAppear:(BOOL)animated
+	<string>- (instancetype)init
 {
-    [super viewWillAppear:animated];
-    
-    &lt;#code content#&gt;
+    self = [super init];
+    if (self) {
+        
+        &lt;#code#&gt;
+    }
+    return self;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>49E1CFE0-91A8-4F05-B854-6F7E610CEE80</string>
+	<string>9ADEA141-69B4-4206-A61C-56CD6E95838B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ViewWillAppear</string>
+	<string>写init方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

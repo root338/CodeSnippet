@@ -35,7 +35,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>188FA0F7-4A0A-4CF2-AEFA-17B5E4A46996</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>实现UICollectionViewDataSource代理方法</string>
 	<key>IDECodeSnippetUserSnippet</key>

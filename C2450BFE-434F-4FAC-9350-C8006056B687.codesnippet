@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C2450BFE-434F-4FAC-9350-C8006056B687</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>实现类扩展</string>
 	<key>IDECodeSnippetUserSnippet</key>

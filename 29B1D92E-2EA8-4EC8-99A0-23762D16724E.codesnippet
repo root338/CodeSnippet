@@ -3,19 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pAddButtonEventTouchUpInside</string>
+	<string>pIfAvailableVersion</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#button name#&gt; addTarget:self action:@selector(&lt;#selector#&gt;) forControlEvents:UIControlEventTouchUpInside];</string>
+	<string>if #available(iOS 11.0, *) {
+            &lt;#code#&gt;
+        } else {
+            // Fallback on earlier versions
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9C917B6C-729B-4F5F-9D26-B87298DD833B</string>
+	<string>29B1D92E-2EA8-4EC8-99A0-23762D16724E</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建 按钮 UIControlEventTouchUpInside 事件</string>
+	<string>分版本处理</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

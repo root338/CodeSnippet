@@ -3,19 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pbuttonAddTarget</string>
+	<string>pUICollectionViewDataSource</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#button name#&gt;.addTarget(self, action: &lt;#T##Selector#&gt;, for: .touchUpInside)</string>
+	<string>//MARK:- UICollectionViewDataSource
+   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
+        &lt;#code#&gt;
+    }
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -&gt; UICollectionViewCell {
+        &lt;#code#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FF5E87A3-E5BE-49CA-8B46-AF2B61845E69</string>
+	<string>687C9AE4-26A0-46BA-8DEC-88CB67E7CC43</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>添加按钮事件</string>
+	<string>实现UICollectionViewDataSource协议 swift version</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -6,7 +6,7 @@
 	<string>pbuttonAddTarget</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>&lt;#button name#&gt;.addTarget(self, action: &lt;#T##Selector#&gt;, for: .touchUpInside)</string>

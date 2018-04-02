@@ -3,23 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pIfAvailableVersion</string>
+	<string>pCreateArray</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if #available(iOS &lt;#version#&gt;, *) {
-            &lt;#code#&gt;
-        } else {
-            // Fallback on earlier versions
-        }</string>
+	<string>NSArray&lt;&lt;#NSString#&gt; *&gt; *&lt;#arrayName#&gt; = &lt;#code#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>29B1D92E-2EA8-4EC8-99A0-23762D16724E</string>
+	<string>96BE5F53-5458-43FF-92A3-37435F25FC56</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>分版本处理</string>
+	<string>创建数组变量</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

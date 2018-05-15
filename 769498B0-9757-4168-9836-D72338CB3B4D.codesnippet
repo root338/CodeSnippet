@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>markType</string>
+	<string>pCurrentPage</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: Types</string>
+	<string>@property (nonatomic, assign) NSInteger currentPage;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>21C89E31-4520-496B-9183-E60878E9ABA1</string>
+	<string>769498B0-9757-4168-9836-D72338CB3B4D</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Type分隔符</string>
+	<string>定义currentPage属性</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>markType</string>
+	<string>markIntialization</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: Types</string>
+	<string>// MARK: Intialization</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>21C89E31-4520-496B-9183-E60878E9ABA1</string>
+	<string>18A5E501-35CB-40BF-B58E-AEE7EF60A285</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Type分隔符</string>
+	<string>init分隔符</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,22 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>markType</string>
+	<string>pDebugImport</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: Types</string>
+	<string>#if DEBUG
+
+#import "&lt;#header#&gt;"
+
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>21C89E31-4520-496B-9183-E60878E9ABA1</string>
+	<string>E4C35AF7-2A29-4BB8-981E-E568A3DEA329</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Type分隔符</string>
+	<string>添加debug下的头文件</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

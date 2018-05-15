@@ -3,19 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>markType</string>
+	<string>pProtocol</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: Types</string>
+	<string>@protocol &lt;#protocol name#&gt; &lt;NSObject&gt;
+
+&lt;#@required#&gt;
+&lt;#protocol method#&gt;
+
+&lt;#@optional#&gt;
+&lt;#protocol method#&gt;
+
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>21C89E31-4520-496B-9183-E60878E9ABA1</string>
+	<string>929C7A86-98AD-4AF8-A7A9-2A7AADEBCFF1</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Type分隔符</string>
+	<string>定义协议</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

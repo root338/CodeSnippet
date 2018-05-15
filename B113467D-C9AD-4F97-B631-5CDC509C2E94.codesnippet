@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>markType</string>
+	<string>pParameters</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: Types</string>
+	<string>NSDictionary *parameters = @{
+                                 &lt;#code#&gt;
+                                 };</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>21C89E31-4520-496B-9183-E60878E9ABA1</string>
+	<string>B113467D-C9AD-4F97-B631-5CDC509C2E94</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Type分隔符</string>
+	<string>创建parameters字典</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

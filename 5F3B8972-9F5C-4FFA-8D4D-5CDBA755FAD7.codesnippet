@@ -3,19 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>markType</string>
+	<string>pRequestRefresh</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: Types</string>
+	<string>- (void)requestFirstPage
+{
+    [self requestPage:1 isNext:NO];
+}
+
+- (void)requestNextPage
+{
+    [self requestPage:&lt;#self.currentPage#&gt; isNext:YES];
+}
+
+- (void)requestPage:(NSInteger)page isNext:(BOOL)isNext
+{
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>21C89E31-4520-496B-9183-E60878E9ABA1</string>
+	<string>5F3B8972-9F5C-4FFA-8D4D-5CDBA755FAD7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Type分隔符</string>
+	<string>实现上拉/下拉方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

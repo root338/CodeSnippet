@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#Class Name#&gt; *)&lt;#Property Name#&gt;
+	<string>&lt;#Property Name#&gt;
 {
     if (_&lt;#Property Name#&gt;) {
         return _&lt;#Property Name#&gt;;

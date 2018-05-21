@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pDebugImport</string>
+	<string>pInitWithNormal</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if DEBUG
-
-#import "&lt;#header#&gt;"
-
-#endif</string>
+	<string>self = [super &lt;#init#&gt;];
+    if (self) {
+        &lt;#statements#&gt;
+    }
+    return self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E4C35AF7-2A29-4BB8-981E-E568A3DEA329</string>
+	<string>394214C2-3B34-4B41-B46A-AFDFA89D790F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>添加debug下的头文件</string>
+	<string>初始化内部一般实现</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

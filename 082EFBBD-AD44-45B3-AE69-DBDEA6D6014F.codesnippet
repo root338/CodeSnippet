@@ -3,28 +3,35 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pGetSet</string>
+	<string>pSpaceInsetsSet</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#Property Name#&gt;
+	<string>- (void)setSpace:(CGFloat)space
 {
-    
-    return &lt;#Property Name#&gt;;
+    if (_space != space) {
+        _space = space;
+        &lt;#didSetupConstraints = NO;#&gt;
+        &lt;#[self setNeedsUpdateConstraints];#&gt;
+    }
 }
 
-&lt;#Property Name#&gt;
+- (void)setInsets:(UIEdgeInsets)insets
 {
-    &lt;#property name#&gt; = &lt;#value#&gt;
+    if (!UIEdgeInsetsEqualToEdgeInsets(insets, _insets)) {
+        _insets = insets;
+        &lt;#didSetupConstraints = NO;#&gt;
+        &lt;#[self setNeedsUpdateConstraints];#&gt;
+    }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>82D02D8F-E0D1-4C47-A864-E899DDF12D5B</string>
+	<string>082EFBBD-AD44-45B3-AE69-DBDEA6D6014F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>添加get/set方法</string>
+	<string>创建 space/insets set 方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

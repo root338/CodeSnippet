@@ -3,23 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pInitWithNormal</string>
+	<string>ymSetupFooterRefresh</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self = [super &lt;#init#&gt;];
-    if (self) {
-        &lt;#statements#&gt;
-    }
-    return self;</string>
+	<string>- (void)removeFooterRefresh
+{
+    [&lt;#scrollView#&gt; ym_addFooterRefreshingTarget:&lt;#target#&gt; action:@selector(&lt;#selector#&gt;)];
+}
+
+- (void)addFooterRefresh
+{
+    [&lt;#scrollView#&gt; ym_removeFooterRefresh];
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>394214C2-3B34-4B41-B46A-AFDFA89D790F</string>
+	<string>DD6926F1-7D04-42D8-8491-D0C37B3526DD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>初始化内部一般实现</string>
+	<string>设置页脚刷新</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

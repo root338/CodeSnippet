@@ -3,23 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pInitWithNormal</string>
+	<string>pDictionaryKeyAndValueAllString</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self = [super &lt;#init#&gt;];
-    if (self) {
-        &lt;#statements#&gt;
-    }
-    return self;</string>
+	<string>@"&lt;#key#&gt;" : @"&lt;#value#&gt;",</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>394214C2-3B34-4B41-B46A-AFDFA89D790F</string>
+	<string>680C01D5-E3AB-4395-8A16-282CE45ACFC6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>初始化内部一般实现</string>
+	<string>字典中的字符串 key : value </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

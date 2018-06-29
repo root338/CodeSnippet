@@ -3,23 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pInitWithNormal</string>
+	<string>pSpaceInsets</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self = [super &lt;#init#&gt;];
-    if (self) {
-        &lt;#statements#&gt;
-    }
-    return self;</string>
+	<string>@property (nonatomic, assign) CGFloat space;
+@property (nonatomic, assign) UIEdgeInsets insets;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>394214C2-3B34-4B41-B46A-AFDFA89D790F</string>
+	<string>AE8E560E-517B-4BA6-BDAA-C42521AF209D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>初始化内部一般实现</string>
+	<string>interface 定义 space / insets</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

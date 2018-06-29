@@ -3,23 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pInitWithNormal</string>
+	<string>pCreateFontColorDictionary</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self = [super &lt;#init#&gt;];
-    if (self) {
-        &lt;#statements#&gt;
-    }
-    return self;</string>
+	<string>NSDictionary *&lt;#dic#&gt; = @{
+                              NSFontAttributeName : &lt;#font name#&gt;,
+                              NSForegroundColorAttributeName : &lt;#color name#&gt;,
+                              };</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>394214C2-3B34-4B41-B46A-AFDFA89D790F</string>
+	<string>65D4CFB8-BF09-43F5-A3B2-D1A35803E85D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>初始化内部一般实现</string>
+	<string>创建Font/Color字体的字典</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_queue_t globalQueue = dispatch_get_global_queue(&lt;#dispatch_queue_priority_t priority#&gt;, &lt;#unsigned long flags#&gt;);
+	<string>dispatch_queue_t globalQueue = dispatch_get_global_queue(&lt;#DISPATCH_QUEUE_PRIORITY_DEFAULT#&gt;, 0);
         dispatch_async(globalQueue, ^{
             
             &lt;#code#&gt;

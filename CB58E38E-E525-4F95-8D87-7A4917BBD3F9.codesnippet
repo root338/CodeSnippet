@@ -3,23 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pInitWithNormal</string>
+	<string>pPropertyButton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self = [super &lt;#init#&gt;];
-    if (self) {
-        &lt;#statements#&gt;
-    }
-    return self;</string>
+	<string>@property (nonatomic, strong) UIButton *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>394214C2-3B34-4B41-B46A-AFDFA89D790F</string>
+	<string>CB58E38E-E525-4F95-8D87-7A4917BBD3F9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>初始化内部一般实现</string>
+	<string>创建 button</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

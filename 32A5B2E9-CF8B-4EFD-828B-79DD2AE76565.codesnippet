@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ymRequestBody</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSString *targetURLStr = YMNetWorkURLMatcher.requestSJAPPURLStr(@"&lt;#path#&gt;");
+    return [self requestWithMethod:POST urlString:targetURLStr parameters:param CacheTimeoutInterval:0 progress:nil success:^(YMResponseResult *result) {
+        if (result.resultStateType == YMResponseResultTypeSuccess) {
+            result.responseObject[DATA_KEY]
+            result.result = [&lt;# code #&gt;];
+            !success?: success(result);
+        }else {
+            !dataError?: dataError(result);
+        }
+    } failure:httpError];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>32A5B2E9-CF8B-4EFD-828B-79DD2AE76565</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>请求体</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

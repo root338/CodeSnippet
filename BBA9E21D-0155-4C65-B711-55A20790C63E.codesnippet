@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pgetCreateCompactReverse</string>
+	<string>pSetProperty</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>&lt;#Property Name#&gt; {
-    if (_&lt;#Property Name#&gt; == nil) {
-        _&lt;#Property Name#&gt; = &lt;#create code#&gt;;
+    if ((_&lt;#name#&gt; == nil &amp;&amp; &lt;#name#&gt; == nil) || _&lt;#name#&gt; != &lt;#name#&gt; ) {
+        _&lt;#name#&gt; = &lt;#name#&gt;;
+        &lt;#other code#&gt;
     }
-    return _&lt;#Property Name#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A6278E84-5005-48CC-857A-60843330EA1F</string>
+	<string>BBA9E21D-0155-4C65-B711-55A20790C63E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>get下自动创建对象 - 先创建后返回 - 紧凑型</string>
+	<string>设置Set方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

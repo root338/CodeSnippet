@@ -3,24 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pgetCreateCompactReverse</string>
+	<string>markDelegateNotification</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#Property Name#&gt; {
-    if (_&lt;#Property Name#&gt; == nil) {
-        _&lt;#Property Name#&gt; = &lt;#create code#&gt;;
-    }
-    return _&lt;#Property Name#&gt;;
-}</string>
+	<string>#pragma mark - Delegate &amp; Notification</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A6278E84-5005-48CC-857A-60843330EA1F</string>
+	<string>EE4EC152-3123-415B-9850-F44FBE517C2B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>get下自动创建对象 - 先创建后返回 - 紧凑型</string>
+	<string>代理&amp;通知区块标识</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

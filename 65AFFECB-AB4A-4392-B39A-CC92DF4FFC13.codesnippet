@@ -9,12 +9,12 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)set&lt;#Property Name#&gt;
+	<string>&lt;#set Property Name #&gt;
 {
-    objc_setAssociatedObject(self, @selector(&lt;#selector#&gt;), &lt;#id value#&gt;, &lt;#objc_AssociationPolicy policy#&gt;);
+    objc_setAssociatedObject(self, @selector(&lt;#selector#&gt;), &lt;#id value#&gt;, &lt;#OBJC_ASSOCIATION_RETAIN_NONATOMIC#&gt;);
 }
 
-- (&lt;#ClassName#&gt;)&lt;#Property Name#&gt;
+&lt;# Property Name #&gt;
 {
     return objc_getAssociatedObject(self, _cmd);
 }</string>

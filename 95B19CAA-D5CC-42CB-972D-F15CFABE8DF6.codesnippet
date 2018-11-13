@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pDebugCode</string>
+	<string>markPublicMethod</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if DEBUG
-    &lt;#code#&gt;
-#endif</string>
+	<string>//MARK:- Public Method</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B0820B15-7DFE-48F3-A815-4B08F350E343</string>
+	<string>95B19CAA-D5CC-42CB-972D-F15CFABE8DF6</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Debug 下的代码</string>
+	<string>对外方法分隔</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

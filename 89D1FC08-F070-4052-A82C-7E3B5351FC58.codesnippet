@@ -2,22 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pDebugCode</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if DEBUG
-    &lt;#code#&gt;
-#endif</string>
+	<string>&lt;#set Property Name #&gt;
+{
+    objc_setAssociatedObject(self, @selector(&lt;#selector#&gt;), &lt;#id value#&gt;, &lt;#OBJC_ASSOCIATION_RETAIN_NONATOMIC#&gt;);
+}
+
+&lt;# Property Name #&gt;
+{
+    return objc_getAssociatedObject(self, _cmd);
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B0820B15-7DFE-48F3-A815-4B08F350E343</string>
+	<string>89D1FC08-F070-4052-A82C-7E3B5351FC58</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Debug 下的代码</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

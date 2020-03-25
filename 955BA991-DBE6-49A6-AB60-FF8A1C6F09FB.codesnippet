@@ -12,13 +12,15 @@
 	<string>+ (nullable NSDictionary&lt;NSString *, id&gt; *)modelContainerPropertyGenericClass
 {
     return @{
-             &lt;#code#&gt;
-             };
+        &lt;#code#&gt;
+    };
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>955BA991-DBE6-49A6-AB60-FF8A1C6F09FB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>YYModel PropertyGenericClass</string>
 	<key>IDECodeSnippetUserSnippet</key>

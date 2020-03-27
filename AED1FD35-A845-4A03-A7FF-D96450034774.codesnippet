@@ -3,26 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pYYModelCustomPropertyMapper</string>
+	<string>markAction</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (nullable NSDictionary&lt;NSString *, id&gt; *)modelCustomPropertyMapper
-{
-    return @{
-        &lt;#code#&gt;
-    };
-}</string>
+	<string>#pragma mark - Action</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>99D03D20-6F9A-4AB1-BBE5-3F455840863E</string>
+	<string>AED1FD35-A845-4A03-A7FF-D96450034774</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>YYModel Custom Property Mapper</string>
+	<string>mark - Action</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

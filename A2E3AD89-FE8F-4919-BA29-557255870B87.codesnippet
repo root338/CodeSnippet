@@ -3,26 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pYYModelCustomPropertyMapper</string>
+	<string>markOverrideSystemMethod</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (nullable NSDictionary&lt;NSString *, id&gt; *)modelCustomPropertyMapper
-{
-    return @{
-        &lt;#code#&gt;
-    };
-}</string>
+	<string>#pragma mark - override system method</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>99D03D20-6F9A-4AB1-BBE5-3F455840863E</string>
+	<string>A2E3AD89-FE8F-4919-BA29-557255870B87</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>YYModel Custom Property Mapper</string>
+	<string>重写系统方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

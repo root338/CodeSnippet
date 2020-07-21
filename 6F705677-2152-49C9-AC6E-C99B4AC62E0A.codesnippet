@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string></string>
+	<string>pAvailableVersionPlatform</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#set Property Name #&gt; {
-    objc_setAssociatedObject(self, @selector(&lt;#selector#&gt;), &lt;#id value#&gt;, &lt;#OBJC_ASSOCIATION_RETAIN_NONATOMIC#&gt;);
-}
-
-&lt;# Property Name #&gt; {
-    return objc_getAssociatedObject(self, _cmd);
-}</string>
+	<string>#if os(iOS)
+&lt;#code#&gt;
+&lt;##elseif os(OSX)#&gt;
+&lt;#code#&gt;
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>89D1FC08-F070-4052-A82C-7E3B5351FC58</string>
+	<string>6F705677-2152-49C9-AC6E-C99B4AC62E0A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>

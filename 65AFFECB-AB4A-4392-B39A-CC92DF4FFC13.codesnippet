@@ -9,19 +9,19 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#set Property Name #&gt;
-{
+	<string>&lt;#set Property Name #&gt; {
     objc_setAssociatedObject(self, @selector(&lt;#selector#&gt;), &lt;#id value#&gt;, &lt;#OBJC_ASSOCIATION_RETAIN_NONATOMIC#&gt;);
 }
 
-&lt;# Property Name #&gt;
-{
+&lt;# Property Name #&gt; {
     return objc_getAssociatedObject(self, _cmd);
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>65AFFECB-AB4A-4392-B39A-CC92DF4FFC13</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>实现扩展中读写属性</string>
 	<key>IDECodeSnippetUserSnippet</key>

@@ -9,8 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithFrame:(CGRect)frame
-{
+	<string>- (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
         
@@ -22,6 +21,8 @@
 	<string>A31AF940-FD56-425B-9FAC-5D09E2B7BA67</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>实现initWithFrame:方法</string>
 	<key>IDECodeSnippetUserSnippet</key>

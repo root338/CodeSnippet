@@ -10,8 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - 初始化方法
-- (instancetype)initWithFrame:(CGRect)frame
-{
+- (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
         [self initialization];
@@ -19,8 +18,7 @@
     return self;
 }
 
-- (instancetype)initWithCoder:(NSCoder *)aDecoder
-{
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
         [self initialization];
@@ -28,14 +26,15 @@
     return self;
 }
 
-- (void)initialization
-{
+- (void)initialization {
     
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>65507F8D-1038-4F9D-9A14-E0C741FAB2A5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>初始化方法集</string>
 	<key>IDECodeSnippetUserSnippet</key>

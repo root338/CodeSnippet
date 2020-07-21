@@ -9,8 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)init
-{
+	<string>- (instancetype)init {
     self = [super init];
     if (self) {
         
@@ -22,6 +21,8 @@
 	<string>9ADEA141-69B4-4206-A61C-56CD6E95838B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>写init方法</string>
 	<key>IDECodeSnippetUserSnippet</key>

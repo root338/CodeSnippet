@@ -11,34 +11,27 @@
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - UITableViewDataSource
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView 
-{
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return &lt;#number#&gt;;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView
-numberOfRowsInSection:(NSInteger)section
-{
+numberOfRowsInSection:(NSInteger)section {
     return &lt;#number#&gt;;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:&lt;#reuseIdentifier#&gt; forIndexPath:&lt;#indexPath#&gt;];
-    
-    [self configureCell:cell forRowAtIndexPath:indexPath];
     
     return cell;
 }
-
-- (void)configureCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    &lt;#statements#&gt;
-}</string>
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5B3E05A2-1557-44BF-828A-595A592CDF01</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>实现UITableViewDataSource</string>
 	<key>IDECodeSnippetUserSnippet</key>

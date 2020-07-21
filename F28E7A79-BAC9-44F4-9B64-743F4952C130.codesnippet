@@ -9,23 +9,20 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier
-{
+	<string>- (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier {
     self = [super initWithReuseIdentifier:reuseIdentifier];
     if (self) {
-        [self initialization];
+        
     }
     return self;
 }
-
-- (void)initialization
-{
-    
-}</string>
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F28E7A79-BAC9-44F4-9B64-743F4952C130</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>初始化TableViewHeaderFooterView</string>
 	<key>IDECodeSnippetUserSnippet</key>

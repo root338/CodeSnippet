@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pPropertyString</string>
+	<string>pIgnoreReturnResult</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) NSString *&lt;#name#&gt;;</string>
+	<string>@discardableResult</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>34D2E2BA-D2B3-47C9-8927-E9DD03DEAA02</string>
+	<string>6D3F3275-BB6A-48DF-834E-DD8FE5A92179</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSString</string>
+	<string>忽略返回值</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -11,10 +11,8 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
-    if (self) {
-        
-        &lt;#code#&gt;
-    }
+    if (self == nil) return nil;
+    &lt;#code#&gt;
     return self;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

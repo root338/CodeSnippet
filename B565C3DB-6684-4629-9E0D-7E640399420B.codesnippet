@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pIgnoreReturnResult</string>
+	<string>pifPlatform</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@discardableResult</string>
+	<string>#if os(iOS)
+&lt;#code#&gt;
+#elseif os(OSX)
+&lt;#code#&gt;
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6D3F3275-BB6A-48DF-834E-DD8FE5A92179</string>
+	<string>B565C3DB-6684-4629-9E0D-7E640399420B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>忽略返回值</string>
+	<string>宏判断系统平台</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

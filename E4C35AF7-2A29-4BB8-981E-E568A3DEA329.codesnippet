@@ -10,14 +10,14 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#if DEBUG
-
 #import "&lt;#header#&gt;"
-
 #endif</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E4C35AF7-2A29-4BB8-981E-E568A3DEA329</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>添加debug下的头文件</string>
 	<key>IDECodeSnippetUserSnippet</key>

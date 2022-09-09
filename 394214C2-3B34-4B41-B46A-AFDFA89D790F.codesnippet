@@ -10,14 +10,15 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>self = [super &lt;#init#&gt;];
-    if (self) {
-        &lt;#statements#&gt;
-    }
-    return self;</string>
+if (self == nil) return nil;
+&lt;#code#&gt;
+return self;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>394214C2-3B34-4B41-B46A-AFDFA89D790F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>初始化内部一般实现</string>
 	<key>IDECodeSnippetUserSnippet</key>

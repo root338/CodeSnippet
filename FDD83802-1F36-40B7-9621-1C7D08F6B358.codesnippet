@@ -10,18 +10,16 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#if DEBUG
-    
     &lt;#code#&gt;
-    
 #else
-    
     &lt;#code#&gt;
-    
 #endif</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FDD83802-1F36-40B7-9621-1C7D08F6B358</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Debug if else</string>
 	<key>IDECodeSnippetUserSnippet</key>

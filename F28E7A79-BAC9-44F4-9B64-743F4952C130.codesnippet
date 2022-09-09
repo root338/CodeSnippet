@@ -11,9 +11,8 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier {
     self = [super initWithReuseIdentifier:reuseIdentifier];
-    if (self) {
-        
-    }
+    if (self == nil) return nil;
+    &lt;#code#&gt;
     return self;
 }
 </string>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pInitCell</string>
+	<string>pInitTableViewCell</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -11,9 +11,8 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self) {
-        
-    }
+    if (self == nil) return nil;
+    &lt;#code#&gt;
     return self;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

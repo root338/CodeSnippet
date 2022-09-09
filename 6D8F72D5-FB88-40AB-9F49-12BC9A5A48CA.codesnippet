@@ -14,6 +14,8 @@
 	<string>6D8F72D5-FB88-40AB-9F49-12BC9A5A48CA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>创建视图对象</string>
 	<key>IDECodeSnippetUserSnippet</key>

@@ -11,10 +11,8 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (instancetype)init {
     self = [super init];
-    if (self) {
-        
-        &lt;#code#&gt;
-    }
+    if (self == nil) return nil;
+    &lt;#code#&gt;
     return self;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
